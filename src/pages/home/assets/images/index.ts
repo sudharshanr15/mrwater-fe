@@ -1,0 +1,1 @@
+export {default as water_bottle} from "./water-bottles.png";

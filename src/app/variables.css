@@ -19,7 +19,7 @@
     --color-primary-50: #454886;
     --color-primary-60: #25286D;
 
-    --color-dp-0: var(--bg-white);
+    --color-dp-0: var(--color-white);
     --color-dp-1: #F8F9FA;
     --color-dp-2: #E9ECEF;
     --color-dp-3: #DEE2E6;

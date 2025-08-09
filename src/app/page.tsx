@@ -1,7 +1,9 @@
-import Image from "next/image";
+import Hero from "@/pages/home/Hero";
 
 export default function Home() {
   return (
-    <h1>Welcome</h1>
+    <div>
+      <Hero />
+    </div>
   );
 }

@@ -1,3 +1,21 @@
 @import "tailwindcss";
 @import "./variables.css";
 
+@layer components {
+    .container-wrapper{
+        @apply max-w-[1440px] mx-auto;
+    }
+}
+
+@layer base{
+    .hero_section{
+        background-image: url("/assets/images/hero-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        .hero_section-tint{
+            @apply bg-linear-to-b from-black/50 to-black/10
+        }
+    }
+}
