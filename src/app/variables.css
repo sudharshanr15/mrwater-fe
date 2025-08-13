@@ -12,6 +12,7 @@
     --text-body-xs: var(--text-xs);
 
     /* colors */
+    --color-primary: #25286D;
     --color-primary-10: #979BDB;
     --color-primary-20: #8286CA;
     --color-primary-30: #3B3E75;
