@@ -1,0 +1,1 @@
+export {default as bottle_500_ml} from "./500ml.svg"
