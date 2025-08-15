@@ -17,7 +17,7 @@ function OurProducts() {
             <h3 className='text-heading-3 md:text-heading-2 font-bold'>Our Products</h3>
         </div>
         <div className="flex flex-col lg:flex-row gap-[30px]">
-            <div className="w-full lg:w-1/2 bg-primary-50 rounded-[30px] md:rounded-[40px] text-white p-8 md:px-11 md:py-13 overflow-hidden relative z-0 min-h-[500px] lg:min-h-[600px]">
+            <div className="w-full lg:w-1/2 bg-primary-60 rounded-[30px] md:rounded-[40px] text-white p-8 md:px-11 md:py-13 overflow-hidden relative z-0 min-h-[500px] lg:min-h-[600px]">
                 <h4 className='text-heading-3 md:text-heading-2 font-bold'>Watering Bottles & Pots</h4>
                 <p className='text-body-xl md:text-heading-3'>Lorem, ipsum dolor.</p>
                 <div className="flex flex-wrap gap-[10px] mt-[22px]">
