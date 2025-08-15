@@ -3,7 +3,7 @@
 
 @layer components {
     .container-wrapper{
-        @apply max-w-[1200px] mx-auto px-3 md:px-6 xl:p-0 my-10 md:my-20;
+        @apply max-w-[1200px] mx-auto px-3 py-10 md:px-6 xl:px-0 md:py-20;
     }
 
     .our_products-2{
@@ -25,5 +25,13 @@
 
     button, a{
         cursor: pointer;
+    }
+
+    .why-choose{
+        & .why-choose__list{
+            & .why-choose__list-item:nth-child(3n + 2){
+                @apply sm:-translate-y-5
+            }
+        }
     }
 }

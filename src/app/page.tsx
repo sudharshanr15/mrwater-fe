@@ -1,6 +1,7 @@
 import Hero from "@/features/home/Hero";
 import OurProducts from "@/features/home/OurProducts";
 import WhoWeAre from "@/features/home/WhoWeAre";
+import WhyChoose from "@/features/home/WhyChoose";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       {/* <Hero /> */}
       <WhoWeAre />
       <OurProducts />
+      <WhyChoose />
     </div>
   );
 }

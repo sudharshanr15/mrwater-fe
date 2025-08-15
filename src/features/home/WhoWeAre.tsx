@@ -4,7 +4,7 @@ import { bottle_about_us } from './assets/images'
 
 function WhoWeAre() {
     return (
-        <section className="container-wrapper my-12 relative">
+        <section className="container-wrapper relative">
             <p className='inline-block text-body-xl font-bold bg-primary rounded-full text-white px-8 py-2 mb-10'>
                 Lorem ipsum dolor sit amet.
             </p>
