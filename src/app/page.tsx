@@ -1,3 +1,4 @@
+import FeaturesOn from "@/features/home/FeaturesOn";
 import Hero from "@/features/home/Hero";
 import OurProducts from "@/features/home/OurProducts";
 import UserAction from "@/features/home/UserAction";
@@ -9,6 +10,7 @@ export default function Home() {
     <div>
       <Hero />
       <WhoWeAre />
+      <FeaturesOn />
       <OurProducts />
       <WhyChoose />
       <UserAction />
