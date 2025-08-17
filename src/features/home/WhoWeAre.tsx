@@ -8,7 +8,7 @@ function WhoWeAre() {
         <section className='container-wrapper'>
             <div className='relative overflow-hidden'>
                 <div className="text-center md:text-start">
-                    <p className='bg-primary rounded-full font-medium px-8 py-2 text-white inline-block md:text-body-xl md:font-bold'>Lorem ipsum dolor sit amet.</p>
+                    <p className='bg-primary rounded-full font-medium px-8 py-2 text-white inline-block md:text-body-xl md:font-bold font-jf-nesan' lang='ta'>“நீர் இன்றி அமையாது உலகு!”</p>
                 </div>
                 <div className='md:flex bg-primary rounded-[20px] items-center mt-10'>
                     <div className="md:w-1/2 text-white p-[30px] lg:px-[74px] lg:py-[57px] lg:box-content">

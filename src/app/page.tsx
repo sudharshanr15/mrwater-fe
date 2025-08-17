@@ -7,7 +7,7 @@ import WhyChoose from "@/features/home/WhyChoose";
 export default function Home() {
   return (
     <div>
-      {/* <Hero /> */}
+      <Hero />
       <WhoWeAre />
       <OurProducts />
       <WhyChoose />

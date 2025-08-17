@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./variables.css";
+@import "./fonts.css";
 
 @layer components {
     .container-wrapper{
@@ -12,14 +13,14 @@
 }
 
 @layer base{
-    .hero_section{
+    .hero-section{
         background-image: url("/assets/images/hero-bg.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         
-        .hero_section-tint{
-            @apply bg-linear-to-b from-black/50 to-black/10
+        & .hero-section--tint{
+            @apply absolute h-full w-full inset-0 bg-linear-to-b from-black/50 to-black/10
         }
     }
 

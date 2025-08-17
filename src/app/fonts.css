@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "JF Nesan";
+    font-style: normal;
+    src: url("/fonts/JF Nesan.ttf");
+}
+
+@font-face{
+    font-family: "Uniform Rounded";
+    font-weight: 300;
+    font-style: normal;
+    src: url("/fonts/uniform-rounded/Uniform Rounded Light.otf");
+}
+
+@font-face{
+    font-family: "Uniform Rounded";
+    font-weight: 400;
+    font-style: normal;
+    src: url("/fonts/uniform-rounded/Uniform Rounded.otf");
+}
+
+@font-face{
+    font-family: "Uniform Rounded";
+    font-weight: 500;
+    font-style: normal;
+    src: url("/fonts/uniform-rounded/Uniform Rounded Medium.otf");
+}
+
+@font-face{
+    font-family: "Uniform Rounded";
+    font-weight: 700;
+    font-style: normal;
+    src: url("/fonts/uniform-rounded/Uniform Rounded Bold.otf");
+}
+
+@theme{
+    --font-uniform-rounded: "Uniform Rounded", sans-serif;
+    --font-jf-nesan: "JF Nesan", sans-serif;
+}

@@ -26,8 +26,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="UTF-8" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`font-uniform-rounded antialiased`}
       >
         <div className="min-h-screen flex flex-col">
           <main className="flex-1">{children}</main>
