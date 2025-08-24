@@ -6,22 +6,31 @@ export default function PreFooterCta(): React.ReactElement {
     <section className="w-full bg-transparent mt-8 md:mt-10 lg:mt-12 mb-8 md:mb-10 lg:mb-12">
       <div className="mx-auto w-full max-w-7xl px-5 md:px-10 lg:px-12">
         {/* Mobile view (vertical layout) */}
-        <div className="md:hidden relative overflow-hidden rounded-3xl bg-[#232a6b] p-6">
+        <div className="md:hidden relative overflow-hidden rounded-3xl bg-[var(--color-primary-60)] p-6">
           <div className="relative z-[1] flex flex-col sm:items-center items-start">
             {/* Text content */}
             <div className="w-full sm:text-start text-left z-10">
-              <h2 className="text-white text-2xl font-bold leading-tight">
+              <h2
+                className="
+                  text-white
+                  text-[var(--text-heading-4)]
+                  sm:text-[32px]
+                  md:text-[34px]
+                  font-extrabold
+                  leading-[var(--text-heading-3--line-height)]
+                "
+              >
                 Stay Hydrated, Stay Healthy
               </h2>
-              <p className="mt-3 text-white/90 text-sm">
-                Join the Mr. Water community and be the first to know about
-                new launches, promotions, and sustainability initiatives. Your
+              <p className="mt-3 text-white text-[var(--text-body-sm)]">
+                Join the Mr. Water community and be the first to know about new
+                launches, promotions, and sustainability initiatives. Your
                 hydration, our mission
               </p>
               <div className="mt-5 mb-4">
                 <button
                   type="button"
-                  className="inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-sm font-medium text-[#232a6b] shadow-sm transition hover:opacity-90"
+                  className="inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-[var(--text-body-sm)] font-medium text-[var(--color-primary-60)] shadow-sm transition hover:opacity-90"
                 >
                   Enquire Now
                 </button>
@@ -45,22 +54,31 @@ export default function PreFooterCta(): React.ReactElement {
         </div>
 
         {/* Desktop/tablet view (horizontal layout) */}
-        <div className="hidden md:block relative overflow-hidden rounded-3xl bg-[#232a6b] p-6 sm:p-8 md:p-10">
+        <div className="hidden md:block relative overflow-hidden rounded-3xl bg-[var(--color-primary-60)] p-6 sm:p-8 md:p-10">
           <div className="relative z-[1] flex flex-row items-center justify-between">
             {/* Left: Text + Button */}
             <div className="max-w-[60%] z-10">
-              <h2 className="text-white text-3xl md:text-[32px] font-bold leading-tight">
+              <h2
+                className="
+                  text-white
+                  text-[var(--text-heading-2)]
+                  md:text-[42px]
+                  lg:text-[44px]
+                  font-extrabold
+                  leading-[var(--text-heading-2--line-height)]
+                "
+              >
                 Stay Hydrated, Stay Healthy
               </h2>
-              <p className="mt-3 text-white/90 text-base max-w-[46ch]">
+              <p className="mt-3 text-white text-[var(--text-body-base)] max-w-[46ch]">
                 Join the Mr.Water community and be the first to know about new
-                launches, promotions, and sustainability initiatives. Your hydration, our
-                mission
+                launches, promotions, and sustainability initiatives. Your
+                hydration, our mission
               </p>
               <div className="mt-5">
                 <button
                   type="button"
-                  className="inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-sm font-medium text-[#232a6b] shadow-sm transition hover:opacity-90"
+                  className="inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-[var(--text-body-sm)] font-medium text-[var(--color-primary-60)] shadow-sm transition hover:opacity-90"
                 >
                   Enquire Now
                 </button>
@@ -89,5 +107,3 @@ export default function PreFooterCta(): React.ReactElement {
     </section>
   );
 }
-
-
