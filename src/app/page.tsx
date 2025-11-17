@@ -4,10 +4,10 @@ import PreFooterCta from "@/components/PreFooterCta";
 
 export default function Home() {
   const reelUrls = [
-    'https://www.instagram.com/konja_neram_yosippom/reel/DNdOPIAIE3G/',
-    'https://www.instagram.com/konja_neram_yosippom/reel/DNFW1sYN5nE/',
-    'https://www.instagram.com/konja_neram_yosippom/reel/DMerxe8NTpB/',
-    'https://www.instagram.com/konja_neram_yosippom/reel/DMKI-v6NhtP/',
+    'https://www.instagram.com/reels_nature_/reel/CWgPsaXjE6o/',
+    'https://www.instagram.com/reels_nature_/reel/CVTFChOgsfn/',
+    'https://www.instagram.com/reels_nature_/reel/DAxuc7gi6ri/',
+    'https://www.instagram.com/reels_nature_/reel/CkD9YBrjhrQ/',
   ];
 
   return (
