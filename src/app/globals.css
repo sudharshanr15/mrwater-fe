@@ -3,36 +3,43 @@
 @import "./fonts.css";
 
 @layer components {
-    .container-wrapper{
-        @apply max-w-[1200px] mx-auto px-3 py-10 md:px-6 xl:px-0 md:py-20;
-    }
+  .container-wrapper {
+    @apply max-w-[1200px] mx-auto px-3 py-10 md:px-6 xl:px-0 md:py-20;
+  }
 
-    .our_products-2{
-        background: linear-gradient(180deg, #25286D 44.47%, rgba(37, 40, 109, 0.00) 100%), url("/images/bottle_mfg.png") lightgray 50% / cover no-repeat, linear-gradient(0deg, #25286D 0%, #25286D 100%);
-    }
+  .our_products-2 {
+    background: linear-gradient(
+        180deg,
+        #25286d 44.47%,
+        rgba(37, 40, 109, 0) 100%
+      ),
+      url("/images/bottle_mfg.png") lightgray 50% / cover no-repeat,
+      linear-gradient(0deg, #25286d 0%, #25286d 100%);
+  }
 }
 
-@layer base{
-    .hero-section{
-        background-image: url("/assets/images/hero-bg.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-        & .hero-section--tint{
-            @apply absolute h-full w-full inset-0 bg-linear-to-b from-black/50 to-black/10
-        }
-    }
+@layer base {
+  .hero-section {
+    background-image: url("/assets/images/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    button, a{
-        cursor: pointer;
+    & .hero-section--tint {
+      @apply absolute h-full w-full inset-0 bg-linear-to-b from-black/50 to-black/10;
     }
+  }
 
-    .why-choose{
-        & .why-choose__list{
-            & .why-choose__list-item:nth-child(3n + 2){
-                @apply sm:-translate-y-5
-            }
-        }
+  button,
+  a {
+    cursor: pointer;
+  }
+
+  .why-choose {
+    & .why-choose__list {
+      & .why-choose__list-item:nth-child(3n + 2) {
+        @apply sm:-translate-y-5;
+      }
     }
+  }
 }
