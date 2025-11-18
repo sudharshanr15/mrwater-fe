@@ -14,7 +14,6 @@ export default function Home() {
     <div>
       <Hero />
       <InstagramReels reelUrls={reelUrls} />
-      <PreFooterCta />
     </div>
   );
 }
