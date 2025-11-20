@@ -6,14 +6,13 @@ import WhoWeAre from "@/features/home/WhoWeAre";
 import WhyChoose from "@/features/home/WhyChoose";
 import InstagramReels from "@/components/InstagramReels";
 import PreFooterCta from "@/components/PreFooterCta";
-import GetSocial from "@/features/home/GetSocial";
 
 export default function Home() {
   const reelUrls = [
-    'https://www.instagram.com/p/DQ16wDsko5b/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
-    'https://www.instagram.com/p/DNr8k443EgR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
-    'https://www.instagram.com/p/DMsRBDUJ7HC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
-    'https://www.instagram.com/p/DNPcZfjJc8h/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    "https://www.instagram.com/p/DQ16wDsko5b/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "https://www.instagram.com/p/DNr8k443EgR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "https://www.instagram.com/p/DMsRBDUJ7HC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "https://www.instagram.com/p/DNPcZfjJc8h/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   ];
 
   return (
@@ -26,7 +25,6 @@ export default function Home() {
       <UserAction />
       <InstagramReels reelUrls={reelUrls} />
       <PreFooterCta />
-
     </div>
   );
 }
