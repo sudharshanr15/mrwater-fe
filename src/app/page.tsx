@@ -10,10 +10,10 @@ import GetSocial from "@/features/home/GetSocial";
 
 export default function Home() {
   const reelUrls = [
-    'https://www.instagram.com/reels_nature_/reel/CWgPsaXjE6o/',
-    'https://www.instagram.com/reels_nature_/reel/CVTFChOgsfn/',
-    'https://www.instagram.com/reels_nature_/reel/DAxuc7gi6ri/',
-    'https://www.instagram.com/reels_nature_/reel/CkD9YBrjhrQ/',
+    'https://www.instagram.com/p/DQ16wDsko5b/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    'https://www.instagram.com/p/DNr8k443EgR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    'https://www.instagram.com/p/DMsRBDUJ7HC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    'https://www.instagram.com/p/DNPcZfjJc8h/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
   ];
 
   return (
@@ -26,6 +26,7 @@ export default function Home() {
       <UserAction />
       <InstagramReels reelUrls={reelUrls} />
       <PreFooterCta />
+
     </div>
   );
 }
