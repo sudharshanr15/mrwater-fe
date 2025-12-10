@@ -120,7 +120,7 @@ export default function Footer(): React.ReactElement {
 
           {/* Socials (placeholders) */}
           <div className="mt-8 flex items-center justify-center gap-6">
-            <a href="">
+            <a href="https://www.instagram.com/arsu.mrwater/">
               <button
                 type="button"
                 className="p-2 rounded-full bg-white transition hover:opacity-90"
@@ -128,7 +128,7 @@ export default function Footer(): React.ReactElement {
                 <AiOutlineInstagram className="text-black h-7 w-7" />
               </button>
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/profile.php?id=61578433126690">
               <button
                 type="button"
                 className="p-2 rounded-full bg-white transition hover:opacity-90"
