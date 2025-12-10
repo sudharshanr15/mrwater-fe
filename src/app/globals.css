@@ -34,12 +34,4 @@
   a {
     cursor: pointer;
   }
-
-  .why-choose {
-    & .why-choose__list {
-      & .why-choose__list-item:nth-child(3n + 2) {
-        @apply sm:-translate-y-5;
-      }
-    }
-  }
 }
