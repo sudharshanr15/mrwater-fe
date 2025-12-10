@@ -2,6 +2,20 @@
 @import "./variables.css";
 @import "./fonts.css";
 
+@keyframes tooltip-fade-in {
+  0%,
+  17% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  1%,
+  16% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
 @layer components {
   .container-wrapper {
     @apply max-w-[1200px] mx-auto px-3 py-10 md:px-6 xl:px-0 md:py-20;
@@ -15,6 +29,12 @@
       ),
       url("/images/bottle_mfg.png") lightgray 50% / cover no-repeat,
       linear-gradient(0deg, #25286d 0%, #25286d 100%);
+  }
+
+  .tooltip-fade-in {
+    visibility: hidden;
+    animation: tooltip-fade-in 60s infinite, bounce 1s infinite;
+    animation-delay: 1s;
   }
 }
 
