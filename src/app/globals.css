@@ -3,14 +3,13 @@
 @import "./fonts.css";
 
 @keyframes tooltip-fade-in {
-  0%,
-  17% {
+  26% {
     opacity: 0;
     visibility: hidden;
   }
 
-  1%,
-  16% {
+  0%,
+  25% {
     opacity: 1;
     visibility: visible;
   }
@@ -33,7 +32,7 @@
 
   .tooltip-fade-in {
     visibility: hidden;
-    animation: tooltip-fade-in 60s infinite, bounce 1s infinite;
+    animation: tooltip-fade-in 20s infinite, bounce 1s infinite;
     animation-delay: 1s;
   }
 }

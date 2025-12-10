@@ -17,7 +17,7 @@ function Hero() {
             lang="ta"
           >
             <span className="block md:inline text-heading-3 md:text-heading-2 lg:text-heading-1">
-              தண்ணீருக்குப்&nbsp;&nbsp;புதிய&nbsp;&nbsp;தரம்!
+              தண்ணீருக்குப் &nbsp; புதிய &nbsp; தரம்!
             </span>
           </h1>
           <div className="block md:hidden">
