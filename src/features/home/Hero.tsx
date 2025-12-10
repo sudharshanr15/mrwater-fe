@@ -24,7 +24,7 @@ function Hero() {
             <p className="text-white mt-3">
               <span className="block text-body-xl">Call us on</span>
               <span className="block text-[24px] font-bold">
-                +91 98765 43210
+                +91 94455 90009
               </span>
             </p>
             <h2 className="mt-3 text-heading-3 font-medium">

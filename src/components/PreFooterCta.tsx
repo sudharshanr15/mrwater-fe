@@ -73,18 +73,26 @@ export default function PreFooterCta(): React.ReactElement {
                 Stay Hydrated, Stay Healthy
               </h2>
               <p className="mt-3 text-white text-body-base">
-                Join the Mr.Water community and be the first to know about new
-                launches, promotions, and sustainability initiatives. Your
-                hydration, our mission
+                <span className="font-bold">Pure Water, Delivered Fast</span>
+                <br />
+                <br />
+                Connect with us for quick delivery, bulk orders, customised
+                bottles, and reliable daily supply. At Mr. Water, we ensure
+                every bottle reaches you fresh, safe, and perfectly pure.
               </p>
               <div className="mt-5">
-                <button
-                  type="button"
-                  className="inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-[var(--text-body-sm)] font-medium text-[var(--color-primary-60)] shadow-sm transition hover:opacity-90"
+                <a
+                  href="https://wa.me/918111011008?text=Hi, I want to place a bulk order for Mr. Water. Please share the details and price."
+                  target="_blank"
                 >
-                  <AiOutlineWhatsApp className="mr-2 h-5 w-5" />
-                  Whatsapp Now
-                </button>
+                  <button
+                    type="button"
+                    className="inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-[var(--text-body-sm)] font-medium text-[var(--color-primary-60)] shadow-sm transition hover:opacity-90"
+                  >
+                    <AiOutlineWhatsApp className="mr-2 h-5 w-5" />
+                    Whatsapp Now
+                  </button>
+                </a>
               </div>
             </div>
 

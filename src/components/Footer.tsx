@@ -36,65 +36,58 @@ export default function Footer(): React.ReactElement {
                 </div>
                 <div>
                   <p className="text-heading-4">Customer Support</p>
-                  <p className="font-bold text-heading-3">+91 81110 11008</p>
+                  <p className="font-bold text-heading-3 mt-2">
+                    +91 81110 11008
+                  </p>
                 </div>
               </div>
             </div>
-            <h2 className="mt-5 text-4xl md:text-5xl lg:text-heading-1 font-extrabold leading-tight">
-              Let&apos;s bring your
-              <br />
-              Idea to life!
+            <h2 className="mt-8 text-4xl md:text-5xl lg:text-heading-2 font-extrabold leading-tight">
+              The signature taste of purity, made premium.
             </h2>
 
-            <form
-              onSubmit={(e) => e.preventDefault()}
-              className="mt-5 max-w-2xl mx-auto"
-            >
-              <div className="relative">
-                <input
-                  type="email"
-                  required
-                  placeholder="Subscribe to our newsletter"
-                  className="h-14 w-full rounded-full border border-white/60 bg-transparent pl-6 pr-16 text-[var(--text-body-base)] text-white placeholder-white/80 outline-none focus:border-white"
-                />
-                <button
-                  type="submit"
-                  aria-label="Submit email"
-                  className="absolute right-1 top-1 h-12 w-12 rounded-full border border-white/70 text-white transition hover:bg-white hover:text-[var(--color-primary-60)] flex items-center justify-center"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="h-5 w-5"
-                  >
-                    <path d="M13.172 12 7.05 5.879l1.414-1.415L16 12l-7.536 7.536-1.414-1.415z" />
-                  </svg>
-                </button>
-              </div>
-            </form>
+            <h2 className="mt-3 text-heading-3 font-medium mt-8">
+              #SipTheDifference
+            </h2>
           </div>
 
           {/* Right: address + contact */}
           <div className="text-white/90 lg:max-w-[35%] xl:max-w-[40%]">
             <div>
-              <p className="text-body-xl font-bold text-white/80">
-                Office Location
-              </p>
+              <p className="text-body text-white">Manufactured & Marketed by</p>
               <p className="mt-2 max-w-md text-body-xl leading-relaxed">
+                <span className="font-bold">
+                  Arsu Manufacturing & Services Pvt. Ltd.
+                </span>
+                <br />
                 No:205/1B, Ariyanipatti Village, Meigudipatti Road,
-                Gandarvakottai Taluk, Pudukkottai District-613 303.
+                Gandarvakottai Taluk, <br />
+                Pudukkottai District-613303.
               </p>
             </div>
 
             <div className="mt-8">
-              <p className="text-[var(--text-body-xs)] font-semibold text-white/80">
-                Contact
-              </p>
+              <p className="text-body-xl font-bold text-white">Contact</p>
               <p className="mt-2 text-body-xl leading-relaxed">
-                support@arsumrwater.com
+                {/* support@arsumrwater.com
+                <br /> */}
+                +91 94455 90009
                 <br />
+                +91 94455 40009
+                <br />
+                +91 72888 30009
+              </p>
+            </div>
+            <div className="mt-8">
+              <p className="text-body-xl font-bold text-white">Customer Care</p>
+              <p className="mt-2 text-body-xl leading-relaxed">
                 +91 81110 11008
+              </p>
+            </div>
+            <div className="mt-8">
+              <p className="text-body-xl font-bold text-white">Email</p>
+              <p className="mt-2 text-body-xl leading-relaxed hover:underline">
+                <a href="mailto:hello@arsumrwater.com">hello@arsumrwater.com</a>
               </p>
             </div>
           </div>
@@ -105,7 +98,7 @@ export default function Footer(): React.ReactElement {
 
         {/* Useful links */}
         <div className="text-center">
-          <h3 className="text-heading-3 font-semibold">Useful Links</h3>
+          {/* <h3 className="text-heading-3 font-semibold">Useful Links</h3>
 
           <nav className="mt-2 flex flex-wrap items-center justify-center text-white/90">
             {footerLinks.map((link, index) => (
@@ -123,18 +116,10 @@ export default function Footer(): React.ReactElement {
                 ) : null}
               </React.Fragment>
             ))}
-          </nav>
+          </nav> */}
 
           {/* Socials (placeholders) */}
           <div className="mt-8 flex items-center justify-center gap-6">
-            {/* {[0, 1, 2, 3].map((i) => (
-              <button
-                key={i}
-                type="button"
-                aria-label={`Social ${i + 1}`}
-                className="size-10 rounded-full bg-white transition hover:opacity-90"
-              />
-            ))} */}
             <a href="">
               <button
                 type="button"
@@ -151,19 +136,11 @@ export default function Footer(): React.ReactElement {
                 <BiLogoFacebook className="text-black h-7 w-7" />
               </button>
             </a>
-            <a href="">
-              <button
-                type="button"
-                className="p-2 rounded-full bg-white transition hover:opacity-90"
-              >
-                <BiLogoLinkedin className="text-black h-7 w-7" />
-              </button>
-            </a>
           </div>
 
           {/* Copyright */}
           <p className="mt-6 text-body-xl">
-            &copy; 2024-2026 Arsu Mr.Water. All rights reserved.
+            &copy; 2025-2026 Arsu Mr.Water. All rights reserved.
           </p>
         </div>
       </div>

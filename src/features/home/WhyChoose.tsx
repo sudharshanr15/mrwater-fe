@@ -21,14 +21,19 @@ function WhyChoose() {
             </div>
             <h2 className="mt-4 text-heading-4">Why Choose us</h2>
             <h3 className="mt-4 text-primary text-heading-4 md:text-heading-3 xl:text-heading-2 font-bold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-              consequuntur.
+              Purity You Trust. Tradition We Carry.
             </h3>
+            <h4 className="mt-4 text-primary font-bold text-body-lg">
+              “நம்ம ஊர். நம்ம தண்ணீர். நம்ம Mr. Water.”
+            </h4>
             <p className="mt-4">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam
+              Just as our heritage stands strong with timeless craftsmanship,
+              Mr. Water stands for purity that never compromises. Our
+              temple-inspired identity reflects values we believe in —
+              cleanliness, trust, clarity, and goodness in every drop.
+              <br />
+              <br />
+              Our promise is simple — pure water that stands the test of time.
             </p>
           </div>
         </div>
