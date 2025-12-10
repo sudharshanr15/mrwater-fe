@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 export default function PreFooterCta(): React.ReactElement {
   return (
@@ -32,7 +33,8 @@ export default function PreFooterCta(): React.ReactElement {
                   type="button"
                   className="inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-[var(--text-body-sm)] font-medium text-[var(--color-primary-60)] shadow-sm transition hover:opacity-90"
                 >
-                  Enquire Now
+                  <AiOutlineWhatsApp className="mr-2 h-5 w-5" />
+                  <span>Whatsapp Now</span>
                 </button>
               </div>
             </div>
@@ -70,7 +72,7 @@ export default function PreFooterCta(): React.ReactElement {
               >
                 Stay Hydrated, Stay Healthy
               </h2>
-              <p className="mt-3 text-white text-[var(--text-body-base)] max-w-[46ch]">
+              <p className="mt-3 text-white text-body-base">
                 Join the Mr.Water community and be the first to know about new
                 launches, promotions, and sustainability initiatives. Your
                 hydration, our mission
@@ -80,7 +82,8 @@ export default function PreFooterCta(): React.ReactElement {
                   type="button"
                   className="inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-[var(--text-body-sm)] font-medium text-[var(--color-primary-60)] shadow-sm transition hover:opacity-90"
                 >
-                  Enquire Now
+                  <AiOutlineWhatsApp className="mr-2 h-5 w-5" />
+                  Whatsapp Now
                 </button>
               </div>
             </div>
